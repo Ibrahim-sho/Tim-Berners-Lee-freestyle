@@ -1,17 +1,17 @@
 #foto{
     border-radius: 50%;
-    border: solid 3px rgb(235,235,235);
-    max-width: 30%;
+    border: solid 12px tomato;
+    max-width: 50%;
 }
 #button{
-    background-color: rgb(237,56,74);
+    background-color: tomato;
     color: white;
-    padding:10px;
-    border-radius: 5px;
+    padding: 30px;
+    border-radius: 40px;
 }
 .bloc1{
-    width: 400px;
-    background-color: white;
+    width: 521px;
+    background-color: rgb(228, 208, 208);
     text-align: center;
     margin-top: 30px;
 }
@@ -20,43 +20,46 @@
     padding: 0;
 }
 .bloc2{
-    background-color: white;
-    width: 400px;
+    background-color: tomato;
+    width: 721px;
     text-align: center;}
 .bloc3{
-    background-color: white;
-    width: 400px;
+    background-color: rgb(207, 176, 176);
+    width: 921px;
     text-align: center;
     margin-bottom: 30px;
 }
 .case {
-    box-shadow: none;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px tomato;
 }
 .case img{
     text-align: left;
-    max-width: 20%;
+    max-width: 21%;
     float: left;
     vertical-align: middle;
-    padding:18px;
+    padding:23px;
 }
 
 body{
-    color: grey;
+    background-image: url("https://cf.ltkcdn.net/web-design/images/orig/204538-2261x1326-HTML.jpg");
+    color: black;
     background-color: rgb(235,235,235);
     font-family: 'Inter', sans-serif;
 }
 h1{
-    color: rgb(237,56,74);
+    color: tomato;
     font-weight: bold;
 }
 div{
-    box-shadow: 1px 2px 1px rgb(235,235,235);
-    margin: 20px auto;
-    padding: 20px 20px;
-    border-radius: 5px;
+    box-shadow: 10px 6px 1px tomato;
+    margin: 30px auto;
+    padding: 30px 30px;
+    border-radius: 15px;
 }
 p{
-    font-size: 12px;
+    font-size: 16px;
     text-align: justify;
 }
 li{
